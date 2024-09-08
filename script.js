@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.0/firebase
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB_hAZ7WXBrJF_rNLAzJpaohtyEtn6W09k",
-    authDomain: "login-a9fa2.firebaseapp.com",
-    projectId: "login-a9fa2",
-    storageBucket: "login-a9fa2.appspot.com",
-    messagingSenderId: "144571069147",
-    appId: "1:144571069147:web:4d6f3a768e9d34be2952fe",
-    measurementId: "G-SSPC0WD2RW"
+  apiKey: "AIzaSyA00d9FP3IKaMUtbv9XuktEF20hBBwGLIs",
+  authDomain: "smat-store.firebaseapp.com",
+  projectId: "smat-store",
+  storageBucket: "smat-store.appspot.com",
+  messagingSenderId: "879265156297",
+  appId: "1:879265156297:web:526c169c842fa02f785118",
+  measurementId: "G-NBN6H2Q0M6"
 };
 
 const app = initializeApp(firebaseConfig);
